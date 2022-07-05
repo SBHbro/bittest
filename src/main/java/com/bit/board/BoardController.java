@@ -24,7 +24,7 @@ public class BoardController {
 		
 		//model을 통해 View로 전달한다.
 		model.addAttribute("posts",posts);
-		
+		//진우테스트
 		return "board";
 	}
 
