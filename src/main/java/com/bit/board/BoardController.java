@@ -25,6 +25,8 @@ public class BoardController {
 		//model을 통해 View로 전달한다.
 		model.addAttribute("posts",posts);
 		
+		System.out.println("test");
+		
 		return "board";
 	}
 
