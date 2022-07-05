@@ -18,7 +18,7 @@ public class BoardController {
 	
 	@RequestMapping(value = "/board", method = RequestMethod.GET)
 	public String boardPage(Model model) {
-		
+		System.out.println("HI");
 		//Mapper를 통해 List를 가져온다.
 		List<PostDto> posts = postMapper.getList();
 		
